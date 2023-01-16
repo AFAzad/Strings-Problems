@@ -1,7 +1,7 @@
 import java.util.*;
 
-// Tak
-public class StringLen{
+// Take ainput from the user and find out 
+public class StringsLen{
     
 public static void main(String[] args){
     Scanner sc = new Scanner (System.in);
@@ -13,7 +13,7 @@ public static void main(String[] args){
     int toLength = 0;
 
     for(int i=0; i<size; i++){
-        array[i] = sc.nextInt();
+        array[i] = sc.next();
 
         toLength += array[i].length();
     }
